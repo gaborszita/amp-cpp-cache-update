@@ -12,7 +12,7 @@ If you use the gcc compiler install libraries libssl and libssl-devel.
 Modify the std::string privateKey and the std::string publicKey in the update.c file. Copy the Private Key and Public Key to the correct location in the file, but be sure to add a " before every line and a \n"\ after every line. Great tutorial for adding symbols to before and after every line for Notepad++ [here](https://stackoverflow.com/questions/11003761/notepad-add-to-every-line).
 
 4. Building the program
-Build the program with "g++ update.c -o main -lcrypto"
+Build the program with "g++ update.cpp -o main -lcrypto"
 
 5. Set the path of update directory
 Write the path in the updateurl.txt file
