@@ -3,7 +3,7 @@
 This little program generates you a link to update the amp cache. You don't neeed to manually generate an RSA signature, verify signature.
 
 1. Fetching files
-Clone the project using "git clone https://github.com/gaborszita/amp-c-cache-update"
+Clone the project using "git clone https://github.com/gaborszita/amp-cpp-cache-update"
 
 2. Installing libraries
 If you use the gcc compiler install libraries libssl and libssl-devel.
